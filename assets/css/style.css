@@ -415,15 +415,18 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 100px;
-  text-align: center;
+  /* padding-top: 100px;
+  text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   #hero .container {
     padding-top: 50px;
   }
-}
+} */
 
 #hero h1 {
   margin: 0;
@@ -570,10 +573,10 @@ h6 {
     height: auto;
   }
 
-  #hero .container {
+  /* #hero .container {
     padding-top: 130px;
     padding-bottom: 60px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
