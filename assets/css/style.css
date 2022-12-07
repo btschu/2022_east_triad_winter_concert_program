@@ -420,6 +420,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 600px;
 }
 
 /* @media (max-width: 992px) {
@@ -581,12 +582,12 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 36px;
   }
 
   #hero h2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
   }
 }
